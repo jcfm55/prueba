@@ -1,0 +1,30 @@
+GITHUB ACCESS TOKEN
+
+En Agosto del 2021, Git saco, como medida de seguridad 
+un access token 
+
+A partir de ahora para poder conectar nuestros repositorios 
+LOCALES con los repositorios REMOTOS, tenemos que generar un 
+ACCESS TOKEN. Ademas de los anteriores, ususario/contraseña
+
+1.- Desde nuestra cuanta en https://github.com/jcfm55/prueba.git
+    settings -> Developer Settings -> Personal access Tokens
+    New persona access token(classic) 
+    
+    Nota : Primer repo de prueba.
+    Marcamos en Select scopes => repo, y al final del todo 
+    presionamos el boton de "Generete Token", en verde
+    
+    Nos devuelve el token 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
+    
+    Y ahora pasamos a configurarlo en el repo LOCAL
+    
+    1) si lo hacemos desde un dir nuevo, tenemos que 
+       git config user.name "jcfm55"
+       git config user.email "juan.carlos.fdez.martin@gmail.com"
+       git config user.password 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
+       git remote add origin https://github.com/jcfm55/prueba.git
+       git 
+          
+    2) si lo hacemos desde el dir ya existente, solo necesitamos
+       git config user.password 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

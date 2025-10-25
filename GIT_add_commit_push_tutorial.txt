@@ -1,0 +1,32 @@
+GIT ADD + GIT COMMIT + GIT PUSH TUTORIAL
+
+Primero creamos un fichero de prueba desde un dir local
+En nuetro caso, Prueba_Local.txt
+
+Si ejecutamos git status, nos sale en rojo los fichero que NO
+estan en el Repositorio REMOTO, nos fijamos en Prueba_Local.txt
+
+git add Prueba_Local.txt
+
+Para asegurarse/confirmar que este fichero se pasa de forma 
+definitiva, hay que hacer commit
+
+git commit -m "Estoy seguro de este commando"
+
+Una vez que hemos asegurado el fichero esta en el repositorio
+LOCAL, hay que subirlo al repositorio REMOTO, mediante :
+
+git puch -u <Nombre_dir_remoto>=origin <Nombre_rama_asociada>=master
+
+Una rama es una linea de trabajo distinta a la principal=master
+git push -u origin master
+
+Una vez hecha la autorizacion, presionamos F5 en el navegador
+para actualizar, y comprobamos que esta nuestro fichero.
+
+Si queremos pasar un fichero desde el repositorio REMOTO al 
+repositorio LOCAL, podemos desde la pestaña de code, nos aparece
+Download ZIP, y podemos dejarlo donde queramos.
+
+Tambien hay otra manera desde el terminal de Git con los comandos
+CLONE y PULL. 

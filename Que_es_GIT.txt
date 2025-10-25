@@ -1,0 +1,66 @@
+QUE GIT
+
+Es un sofware de control de versiones que registra los cambios
+realizados sobre un archivo o conjunto de archivos a lo largo
+del tiempo
+
+GIT nos permite gestionar distintas versiones de un mismo archivo
+pudiendo volver a una version anterior o una más reciente 
+cuando sea necesario
+
+QUE ES UN REPOSITORIO
+=====================
+- Cuando trabajamos con GIT lo que creamos es un REPOSITORIO
+  es decir, un lugar donde guardamos y administramos nuestros
+  archivos
+
+- Existe dos tipos de repositorios:
+    - LOCALES Son aquellos que se crean de forma "local" en 
+      nuestro PC, y que no necesariamente son compartidos.
+    - REMOTOS Son aquellosque se encuentran alojados en algun
+      servidor externo y que puede ser accedido desde 
+      culaquier lugar. Un ejemplo de repositorio remoto puede
+      ser Git-HUB.
+      
+1.- Como Instalar GIT
+    cd /d/tmp/Prog_Java/Curso_Base_Datos/
+    git init
+2.- Creación de una cuenta y repositorioen GitHub
+
+   a) desde google ponemos "github where the world builds software"
+      nos sale la primera opcion
+   b) https://github.com/
+      en la esquina superior dcha, signup
+   c) email : juan.carlos.fdez.martin@gmail.com
+      pass  : la_facil_menor_dos_digitos
+      usuario: jcfm55
+      
+   d) Una vez creada la cuenta, pasamos a crear el repositorio
+      Nos pide:
+      Nombre del repositorio : jcfm55/prueba
+      Descripcion repositorio: Esto es una prueba git + github
+      Publico : se puede ver desde internat
+      Privado : solo yo puedo verlo
+      Resto Opciones se deja en blanco
+      
+    e) Nos sale una pantalla con comandos para hecer esto desde
+       la linea de comando, o desde gig_escritorio
+       
+       La url para conectarnos a nuestro repositorio remoto
+       https://github.com/jcfm55/prueba.git
+       
+    f) ahora vamos al repositorio LOCAL, para que se comunique
+       con nuetro repositorio REMOTOS
+    
+    Ahora tenemos que identificarnos, para saber de quien es este
+    repositorio. 
+    
+    git config user.name "jcfm55"
+    git config user.email "juan.carlos.fdez.martin@gmail.com"
+    
+    para comunicar mi repositorio LOCAL con el REMOTO, ejecutar
+    
+    git remote add origin "https://github.com/jcfm55/prueba.git"
+    
+    origin es el nombre por defecto, pero se puede poner el que
+    queramos

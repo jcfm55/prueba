@@ -1,0 +1,39 @@
+GIT_Que_son_branches_ramas
+
+En lugar de tener distintas versiones, podemos tener RAMAS,
+pudiendo tener intercambio entre ramas
+
+Las ramas pueden definirse como "punteros" para cada uno de los
+cambios o versiones que queremos armar de nuestro proyecto o 
+desarrollo.
+
+Cada rama represente una linea independiente de desarrollo.
+
+GiT cuenta con una rama principal master/main de la cual parten
+todas las demas ramas que se puedan crear.
+
+git branch                  <= Nos da la rama en la que estamos
+git branch rama1            <= Nos crea la rama 1
+git branch -m rama1 ramita1 <= nos cambia en nombre de la rama
+git chechout ramita1        <= nos cambia a la ramita1
+
+git chechout master         <= Nos cambiamos a la rama master
+git branch -d ramita1       <= Ahora si podemos borrar ramita1
+
+Ahora vamos a crear archivos que no esten en la rama principal
+git branch rama1
+git checkout rama1
+touch "texto.txt"
+touch "texto2.txt"
+git add .
+git commit -m "Estoy comiteando los archivos nuevos"
+
+git config --global user.email "juan.carlos.fdez.martin@gmail.com"
+git config --global user.name  "jcfm55"
+Se puede omitir --global para identificar solo este repositorio
+
+Ahora volvemos a la rama master
+git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+  (use "git push" to publish your local commits

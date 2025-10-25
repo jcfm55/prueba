@@ -1,0 +1,11 @@
+total 16
+-rw-r--r-- 1 CARLOS 197121 1115 Oct 25 12:39 GIT_add_commit_push_tutorial.txt
+-rw-r--r-- 1 CARLOS 197121 1217 Oct 25 12:39 Github_access_token.txt
+-rw-r--r-- 1 CARLOS 197121   59 Oct 25 12:39 Prueba_Local.txt
+-rw-r--r-- 1 CARLOS 197121   38 Oct 25 12:46 Prueba_de_Pull.txt
+-rw-r--r-- 1 CARLOS 197121 2374 Oct 25 12:39 Que_es_GIT.txt
+-rw-r--r-- 1 CARLOS 197121    0 Oct 25 14:17 Texto.txt
+-rw-r--r-- 1 CARLOS 197121    0 Oct 25 14:17 Texto2.txt
+-rw-r--r-- 1 CARLOS 197121    0 Oct 25 14:18 Texto3.txt
+-rw-r--r-- 1 CARLOS 197121  243 Oct 25 12:39 crea_new_repository_from_cmd.txt
+-rw-r--r-- 1 CARLOS 197121  156 Oct 25 12:39 push_repository_from_cmd.txt

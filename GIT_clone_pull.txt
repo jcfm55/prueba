@@ -1,0 +1,14 @@
+GIT CLONE + GIT PULL
+
+Si queremos pasar del repositorio REMOTO al LOCAL, tenemos dos 
+comandos CLONE y PULL. 
+
+CLONE se utiliza cuando queremos copiar TODO el REPOSITORIO
+
+git clone https://github.com/jcfm55/prueba
+
+Si solo queremos un fichero, tenemos que
+a) creamos un nuevo fichero en el remoto, Prueba_de_Pull
+   Salvamos los cambios, y confirmamos.
+b) desde el terminal CLONE, 
+   git pull origin master (origin=Nombre_de_repo, master=rama)
